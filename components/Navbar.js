@@ -8,7 +8,7 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 
 export default function Navbar() {
-const [show, setShow] = useState(false)
+const [show, setShow] = useState(true)
 const { status, data } = useSession()
 const router = useRouter()
 
